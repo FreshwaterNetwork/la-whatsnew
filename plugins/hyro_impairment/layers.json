@@ -1,0 +1,22 @@
+[
+    {
+        "agsSource": {
+            "url": "http://50.18.215.52/arcgis/rest/services/",
+            "folderTitle": "Louisiana Freshwater",
+            "folders": [
+                {
+                    "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater",
+                    "name": "",
+                    "services": [
+						{ "name": "LDEQ_Subsegment_Hydrologic_Impairment_Assessments", "type": "dynamic",
+						"isNew": { "startDate": "10/7/2014", "endDate": "12/31/2014" }
+						},
+						{ "name": "LA_Parishes_Hydrologic_Impairment_Assessments", "type": "dynamic",
+						"isNew": { "startDate": "10/7/2014", "endDate": "12/31/2014" }
+						}
+                     ]
+                }
+            ]
+        }
+    }
+]
